@@ -28,3 +28,6 @@ But still it has some cool features. I will just list down the features below-
 + **💾 Forkify saves all your bookmarks in local storage so you can check them out later anytime**
 
 ---
+
+## Check out the deployed site🚀 
+### https://forkify-recipe-search-js.netlify.app/
