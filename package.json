@@ -4,8 +4,7 @@
   "description": "recipe application",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist",
-    "default": "index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "milan mahanti",
   "license": "ISC",
