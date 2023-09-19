@@ -8,7 +8,8 @@ import bookmarkView from './views/bookmarkView';
 import addRecipeView from './views/addRecipeView';
 import { MODAL_CLOSE_SEC } from './configs';
 
-import 'core.js';
+// import 'core.js';
+import 'core-js';
 import 'regenerator-runtime/runtime';
 
 // https://forkify-api.herokuapp.com/v2
