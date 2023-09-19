@@ -1,9 +1,6 @@
 # FORKIFY🍽️
 
 #### Forkify is a simple and modern Javascript based web application to search for recipes online and also has the ability to add your own recipe to it.
----
-## API🔑-https://forkify-api.herokuapp.com/v2
-This is the api used in Forkify app to get the data and render it.
 
 ---
 ### Overview📃
@@ -26,6 +23,10 @@ But still it has some cool features. I will just list down the features below-
 + **🔖 You can bookmark your favourite recipe**
 + **📤 You can also upload your own recipe too**
 + **💾 Forkify saves all your bookmarks in local storage so you can check them out later anytime**
+
+---
+## API🔑-https://forkify-api.herokuapp.com/v2
+This is the api used in Forkify app to get the data and render it.
 
 ---
 
