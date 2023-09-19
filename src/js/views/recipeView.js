@@ -125,8 +125,9 @@ class RecipeView extends View {
           <div class="recipe__quantity">${
             ing.quantity ? fracty(ing.quantity).toString() : ''
           }</div>
-          <div class="recipe__description">${ing.description}
+          <div class="recipe__description">
             <span class="recipe__unit"> ${ing.unit}</span>
+            ${ing.description}
           </div>
         </li>
         `;
