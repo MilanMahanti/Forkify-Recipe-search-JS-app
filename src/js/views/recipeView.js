@@ -1,7 +1,7 @@
 import icons from 'url:../../img/icons.svg';
-import fraction from 'fracty';
+// import fraction from 'fracty';
 import View from './View';
-
+import fracty from 'fracty';
 class RecipeView extends View {
   _parentEl = document.querySelector('.recipe');
   _errorMessage =
@@ -124,7 +124,7 @@ class RecipeView extends View {
             <use href="${icons}#icon-check"></use>
           </svg>
           <div class="recipe__quantity">${
-            ing.quantity ? fraction(ing.quantity).toString() : ''
+            ing.quantity ? fracty(ing.quantity).toString() : ''
           }</div>
           <div class="recipe__description">${ing.description}
             <span class="recipe__unit"> ${ing.unit}</span>
